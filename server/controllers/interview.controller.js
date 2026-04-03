@@ -75,7 +75,7 @@ try {
     message: "AI returned invalid JSON",
   });
 }
-        const parsed =JSON.parse(aiResponse);
+        
         fs.unlinkSync(filepath)
         res.json({
             role:parsed.role,

@@ -12,7 +12,7 @@ dotenv.config()
 const app = express()
 
 app.use(cors({
-    origin:"https://ai-intern-client.onrender.com",
+    origin:"http://localhost:5173",
     credentials:true
 }))
 

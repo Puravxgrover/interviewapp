@@ -4,13 +4,15 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth"
 
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_APIKEY,
-  authDomain: "aiintern-529e6.firebaseapp.com",
-  projectId: "aiintern-529e6",
-  storageBucket: "aiintern-529e6.firebasestorage.app",
-  messagingSenderId: "384317762399",
-  appId: "1:384317762399:web:004a9060e04a4703e964ea"
+  apiKey: "AIzaSyA_d4KiUsm4r5nxnlAjvCIEQ2mHixUFCDE",
+  authDomain: "ai-intern-32fab.firebaseapp.com",
+  projectId: "ai-intern-32fab",
+  storageBucket: "ai-intern-32fab.firebasestorage.app",
+  messagingSenderId: "840175527912",
+  appId: "1:840175527912:web:26159e9e7fd002e5dee65d",
+  measurementId: "G-LGWG3FFPZM"
 };
+
 
 
 const app = initializeApp(firebaseConfig);
